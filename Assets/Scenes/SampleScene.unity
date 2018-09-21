@@ -218,7 +218,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114958408560465694, guid: 30d8144b1f908164e953c22f751d9d32, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 30d8144b1f908164e953c22f751d9d32, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &534669902
@@ -234,7 +235,7 @@ GameObject:
   - component: {fileID: 534669906}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -333,7 +334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   applePrefab: {fileID: 1707048888235078, guid: 9295c7b83319c09439910f98918c2cdc,
     type: 2}
-  speed: 1
+  speed: 3
   leftAndRightEdge: 10
-  chanceToChangeDirections: 0.01
-  secondsBetweenAppleDrops: 8
+  chanceToChangeDirections: 0.005
+  secondsBetweenAppleDrops: 1
